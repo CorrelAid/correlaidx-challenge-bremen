@@ -1,7 +1,7 @@
 version: "3.0"
 services: 
     app:
-        build: "."
+        image: ghcr.io/correlaid/bremen:1.0.0
         ports: 
             - "8383:3838"
         restart: "unless-stopped"
